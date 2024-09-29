@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viennese Summer</title>
+  <link rel="icon" type='image/x-icon' href="./icon/sun-icon.svg" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CDN Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- CDN Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Importing the CSS file -->
+  <link rel="stylesheet" href="Contentboxes/Website_test/style-contentboxes.css">
+  <style>
+    body {
+      font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+      display: none
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="wm-top">
+    <div class="wm-bar wm-black wm-card">
+      <a class="wm-bar-item wm-button wm-padding-large wm-hide-medium wm-hide-large wm-right" href="javascript:void(0)"
+        onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="wm-bar-item wm-button wm-padding-large wm-hide-small">HOME</a>
+      <a href="map.html" target="_blank" class="wm-bar-item wm-button wm-padding-large">MAP</a>
+      <a href="#instructions" class="wm-bar-item wm-button wm-padding-large wm-hide-small">HOW TO USE</a>
+      <a href="#team" class="wm-bar-item wm-button wm-padding-large wm-hide-small">TEAM</a>
+      <a href="references.html" class="wm-bar-item wm-button wm-padding-large wm-hide-small">REFERENCES</a>
+      <div class="wm-dropdown-hover wm-hide-small">
+        <button class="wm-padding-large wm-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+        <div class="wm-dropdown-content wm-bar-block wm-card-4">
+          <a href="Group Diary - Viennese Summer.pdf" target="_blank" class="wm-bar-item wm-button">GROUP DIARY</a>
+          <a href="#contact" class="wm-bar-item wm-button">CONTACT</a>
+        </div>
+      </div>
+      <a href="javascript:void(0)" class="wm-padding-large wm-hover-red wm-hide-small wm-right"><i></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="wm-bar-block wm-black wm-hide wm-hide-large wm-hide-medium wm-top" style="margin-top:46px">
+    <a href="index.html" class="wm-bar-item wm-button wm-padding-large">HOME</a>
+    <a href="map.html" class="wm-bar-item wm-button wm-padding-large" onclick="myFunction()">MAP</a>
+    <a href="#instructions" class="wm-bar-item wm-button wm-padding-large" onclick="myFunction()">INSTRUCTIONS</a>
+    <a href="references.html" class="wm-bar-item wm-button wm-padding-large">REFERENCES</a>
+    <a href="#team" class="wm-bar-item wm-button wm-padding-large" onclick="myFunction()">TEAM</a>
+    <a href="Group Diary - Viennese Summer.pdf" target="_blank" class="wm-bar-item wm-button wm-padding-large" onclick="myFunction()">GROUP DIARY</a>
+  </div>
+
+
+
+
+  <!-- Page content -->
+  <div class="wm-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Page content --> 
+  <div class="wm-content" style="max-width:2000px;margin-top:46px"> 
+    <!-- Photos intro --> 
+    <div class="mySlides wm-display-container wm-center"> 
+      <img src="image/garden.jpg" style="width:100%"> 
+      <div class="centered">Viennese Summer</div> 
+      <footer><small> 
+          <p>Copyright © Angie Ca Ro/Unsplash.com 2020 </p> 
+        </small></footer> 
+      <div class="wm-display-bottommiddle wm-container wm-text-white wm-padding-32 wm-hide-medium"> 
+        <h3><b>Had the best time playing at Viennese gardens!</b></h3> 
+      </div> 
+    </div> 
+    <div class="mySlides wm-display-container wm-center"> 
+      <img src="image/karlz.jpg" style="width:100%"> 
+      <div class="centered">Viennese Summer</div> 
+      <footer><small> 
+          <p> Copyright © Irene Chang 2024 </p> 
+        </small></footer> 
+      <div class="wm-display-bottommiddle wm-container wm-text-white wm-padding-32 wm-hide-medium"> 
+        <h3><b>Your guide to enjoy the summer.</b></h3> 
+      </div> 
+    </div> 
+    <div class="mySlides wm-display-container wm-center"> 
+      <img src="image/basket.jpg" style="width:100%"> 
+      <div class="centered">Viennese Summer</div> 
+      <footer><small> 
+          <p>Copyright © Urban Park/Wikipedia 2015</p> 
+        </small></footer> 
+      <div class="wm-display-bottommiddle wm-container wm-text-white wm-padding-32 wm-hide-medium"> 
+        <h3><b>Outdoor sport facilities in Vienna.</b></h3> 
+      </div> 
+    </div>
+
+    <!-- CONTENT links -->
+    <div class="wm-container wm-content wm-center wm-padding-64" style="max-width:800px" id="INSTRUCTIONS">
+      <h2 class="wm-wide">Viennese Summer</h2>
+      <p class="wm-opacity"><i>Enjoy your summer in Vienna</i></p>
+      <p class="wm-justify">Vienna, with its rich history and vibrant culture, transforms into a playground of outdoor
+        fun and excitement during the summer months. Our website is your ultimate guide to exploring all the fantastic
+        activities the city has to offer. Whether you're a local looking for new adventures or a visitor wanting to
+        experience the best of Vienna, we've got you covered.</p>
+    </div>
+
+    <div class="wm-container wm-content wm-padding-64" style="max-width:800px">
+      <h1 class="wm-wide wm-center">MAP CONTENT</h1>
+    </div>
+
+    <div class="hero_section" style="
+    z-index: 0;
+    position: relative;
+">
+      <div class="cards_box swiper">
+        <div class="cards">
+          <div class="swiper-wrapper">
+            <!-- Card details -->
+            <section class="card_details swiper-slide">
+              <div class="card_img_box">
+                <img src="Contentboxes/Website_test/images/seri-gKbcHC7Xknc-unsplash.jpg" class="card_img">
+                <footer><small>
+                    <p>Copyright © Seri/Unsplash.com 2022</p>
+                  </small></footer>
+                <figcaption> __ </figcaption>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Fountains</h3>
+                <p class="card_description">
+                  Explore Vienna's delightful fountains that offer cool and refreshing water. From
+                  elegant historical fountains to modern urban features, these spots provide a
+                  relaxing break and a taste of Vienna's rich history and charm. Enjoy these serene
+                  locations throughout the city, perfect for staying hydrated and enjoying Vienna's
+                  lively summer vibes.
+                </p>
+
+              </div>
+            </section>
+            <!-- Repeat similar sections for other cards -->
+            <section class="card_details swiper-slide">
+              <div class="card_img_box">
+                <img src="Contentboxes/Website_test/images/IMG_9095.jpg" class="card_img">
+                <footer><small>
+                    <p>Copyright © Irene Cheng 2024</p>
+                  </small></footer>
+                <figcaption> __ </figcaption>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Swimming Spots</h3>
+                <p class="card_description">
+                  Discover Vienna's swimming spots, perfect for cooling off and enjoying the summer
+                  sun. Whether you prefer natural lakes, public pools, or riverside beaches, Vienna
+                  offers a variety of options for swimming and lounging. Dive into the city's aquatic
+                  offerings, ideal for relaxing with family and friends amidst Vienna's vibrant summer
+                  atmosphere.
+                </p>
+
+              </div>
+            </section>
+            <section class="card_details swiper-slide">
+              <div class="card_img_box">
+                <img src="Contentboxes/Website_test/images/hiking.jpg" class="card_img">
+                <footer><small>
+                    <p>Copyright © Rawpixel.com </p>
+                  </small></footer>
+                <figcaption> __ </figcaption>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Hiking trails</h3>
+                <p class="card_description">
+                  Explore Vienna's scenic hiking trails, featuring picturesque paths highlighted on
+                  our map. These trails wind through Vienna's green spaces, offering opportunities to
+                  explore nature and enjoy panoramic views of the city. Whether you're a seasoned
+                  hiker or looking for a leisurely walk, Vienna's hiking trails cater to all levels of
+                  outdoor enthusiasts, providing a refreshing escape into the city's natural beauty.
+                </p>
+              </div>
+            </section>
+            <section class="card_details swiper-slide">
+              <div class="card_img_box">
+                <img src="Contentboxes/Website_test/images/23450006.jpg" class="card_img">
+                <footer><small>
+                    <p>Copyright © Irene Chang 2024</p>
+                  </small></footer>
+                <figcaption> _ </figcaption>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Historical Gardens</h3>
+                <p class="card_description">
+                  Explore Vienna's enchanting historical gardens, featuring lush greenery and
+                  centuries-old designs. From Baroque landscapes to Renaissance courtyards, these
+                  gardens reveal Vienna's rich history and architectural beauty. Perfect for tranquil
+                  strolls and immersing yourself in the city's cultural heritage amid natural
+                  splendor.
+                </p>
+              </div>
+            </section>
+            <section class="card_details swiper-slide">
+              <div class="card_img_box">
+                <img src="Contentboxes/Website_test/images/outdoor sport.jpg" class="card_img">
+                <footer><small>
+                    <p>Copyright © /Rawpixel.com </p>
+                  </small></footer>
+                <figcaption> __ </figcaption>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Outdoor Sport Facilities</h3>
+                <p class="card_description">
+                  Discover Vienna's outdoor sport facilities, ideal for active pursuits under the
+                  summer sun. From expansive parks with jogging trails to sports fields for soccer and
+                  volleyball, Vienna offers a variety of spaces for fitness and recreation. Enjoy
+                  outdoor workouts or friendly matches with friends and family, embracing the city's
+                  vibrant outdoor sports scene amidst its scenic surroundings.
+                </p>
+              </div>
+            </section>
+
+            <section class="card_details swiper-slide">
+              <div class="card_img_box">
+                <img src="Contentboxes/Website_test/images/hiking2.jpg" class="card_img">
+                <footer><small>
+                    <p>Copyright © /Rawpixel.com</p>
+                  </small></footer>
+                <figcaption> __ </figcaption>
+              </div>
+              <div class="card_data">
+                <h3 class="card_name">Rundumadum Hiking Trail
+                </h3>
+                <p class="card_description">
+                  Experience the Rundumadum hiking trail, circling Vienna through green belts, parks,
+                  and forests. This extensive route offers diverse landscapes and stunning views,
+                  perfect for both avid hikers and casual walkers. Explore Vienna's natural beauty at
+                  your own pace, enjoying the city's rich biodiversity and scenic charm.
+              </div>
+            </section>
+
+          </div>
+        </div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <!-- CDN Swiper JavaScript  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Importing the JavaScript file -->
+  <script src="Contentboxes/Website_test/script.js"></script>
+
+  <!-- user guide -->
+  <div class="wm-black" id="instructions">
+    <div class="wm-container wm-content wm-padding-64" style="max-width:800px">
+      <h1 class="wm-wide wm-center">USER GUIDE</h1>
+      <p class="wm-opacity wm-center"><i>On this map, you can explore a variety of water points and outdoor free
+          activities to keep you refreshed during the summer. Use the following instructions to navigate the map:
+        </i></p><br>
+      <p class="wm-justify"><i>1. Zoom In/Out: Use the zoom controls or scroll with your mouse to get a closer or
+          broader view.
+        </i></p>
+      <p class="wm-justify"><i>2. Click on Icons: Click on specific icons to see detailed information, including names
+          and additional details from each spot.
+        </i></p>
+      <p class="wm-justify"><i>3. Use the Search Bar: Utilize the search bar to find specific water points or activities
+          quickly closer to your location.
+        </i></p>
+      <p class="wm-justify"><i>4. Filter Options: Apply filters to narrow down the types of spots you are interested in.
+        </i></p><br>
+    </div>
+  </div>
+
+  <!-- MAP code -->
+  <div class="wm-black" id="map">
+    <div class="wm-container wm-content wm-padding-32" style="max-width:1450px">
+      <!-- <div class="wm-row-padding wm-padding-32" style="margin: 0 -16px; text-align: center;"> -->
+      <h2 class="wm-wide wm-center">MAP</h2>
+      <iframe src="map.html" frameborder="0" style="border: 0; width: 100%; height: 710px;"></iframe>
+    </div>
+  </div>
+
+
+  <div class="wm-row-padding wm-padding-32" style="display: flex;margin: 5px; max-width: 2000px; justify-content: center;">
+    <div class="wm-third wm-margin-bottom wm-orange" style="
+max-width: 300px;
+padding: 15px;
+margin: 10px;
+">
+        <h2 class="wm-wide wm-center">OUTDOOR ACTIVITIES</h2>
+        <img src="image/outdoorcrop.jpg" alt="Multisport Court Icon" style="width: 100%; height: 200px;"
+            class="fixed-height">
+        <footer><small>
+                <p>Copyright © Brenda Alday 2024</p>
+            </small></footer>
+        <div class="wm-container wm-orange" style="height: 430px;"> <br>
+            <div class="grid-item">
+                <img src="icon\sports\multisport_hard_court.svg" alt="Multisport Hard Cort"> Multisport
+                Court
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/multisport_grass_field.svg" alt="Grass Field"> Grass Field
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/skate_park.svg" alt="Skate Park"> Skate Park
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/table_tennis.svg" alt="Tennis"> Tennis
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/beach_volleyball.svg" alt="Volleyball"> Volleyball
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/bocce_ball.svg" alt="Bocce"> Bocce
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/climbing.svg" alt="Climbing"> Climbing
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/fitness_equipment.svg" alt="Fitness Zone"> Fitness Zone
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/golf.svg" alt="Golf"> Golf
+            </div>
+            <div class="grid-item">
+                <img src="icon/sports/mini_golf.svg" alt="Mini Golf"> Mini Golf
+            </div>
+        </div>
+    </div>
+    <div class="wm-third wm-margin-bottom wm-yellow" style="
+max-width: 300px;
+padding: 15px;
+margin: 10px;
+">
+        <h2 class="wm-wide wm-center">WATER<br>SPOTS</h2>
+        <img src="image/waterdrinking.jpg" alt="Water Drinking" style="width: 100%; height: 200px;"
+            class="fixed-height"><br>
+        <footer><small>
+                <p>Copyright © Brenda Alday 2024</p>
+            </small></footer>
+        <div class="wm-container wm-yellow" style="height: 430px;"><br>
+            <div class="grid-item">
+                <img src="icon/water/drinking.svg" alt="Drinking"> Drinking Spot
+            </div>
+            <div class="grid-item">
+                <img src="icon/water/groundwater.svg" alt="Groundwater"> Groundwater Supply
+            </div>
+            <div class="grid-item">
+                <img src="icon/water/ornamental.svg" alt="Ornamental"> Ornamental Fountain
+            </div>
+            <div class="grid-item">
+                <img src="icon/water/pet_drinking.svg" alt="Pet"> Pet Drinking
+            </div>
+            <div class="grid-item">
+                <img src="icon/water/outlet.svg" alt="Outlet"> Stream Water Source
+            </div>
+            <div class="grid-item">
+                <img src="icon/water/recreational.svg" alt="Aquatic"> Aquatic Playground
+                <br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="wm-third wm-margin-bottom wm-white" style="
+max-width: 300px;
+padding: 15px;
+margin: 10px;
+">
+        <h2 class="wm-wide wm-center">SWIMMING</h2><br>
+        <br><img src="image/swimming.png" alt="Multisport Court Icon" style="width: 100%; height: 200px;"
+            class="fixed-height"><br>
+        <footer><small>
+                <p>Copyright © Juan Luis Torres 2024</p>
+            </small></footer>
+        <div class="wm-container wm-white" style="height: 430px;">
+            <div class="grid-item">
+                <br><img src="icon/sports/swimming_pool.svg" alt="Swimming"> Swimming
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wm-row-padding wm-padding-32" style="margin: 5px; max-width: 2000px; display: flex; justify-content: center;">
+    <div class="wm-third wm-margin-bottom wm-brown" style="
+max-width: 300px;
+width: 300px;
+padding: 15px;
+margin: 10px;
+">
+        <h2 class="wm-wide wm-center">HIKING</h2><br>
+        <br><img src="image/croptrail.png" alt="Hiking" style="width: 100%; height: 200px;" class="fixed-height"><br>
+        <footer><small>
+                <p>Copyright © Brenda Alday 2024</p>
+            </small></footer>
+        <div class="wm-container wm-brown" style="height: 430px;">
+            <div class="grid-item">
+                <br><img src="icon/rund-icon.svg" alt="TrailRundu"> Hiking Rundumadum
+            </div>
+            <div class="grid-item">
+                <br><img src="icon/hiking-routes-icon.svg" alt="Trail"> Hiking Trail
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="wm-third wm-margin-bottom wm-brown" style="
+width: 300px;
+padding: 15px;
+margin: 10px;
+height: 800px;
+">
+        <h2 class="wm-wide wm-center">PARKS</h2><br>
+        <br><img src="image/parks.png" alt="Hiking" style="width: 100%; height: 200px;" class="fixed-height"><br>
+        <footer><small>
+                <p>Copyright © Brenda Alday 2024</p>
+            </small></footer>
+        <div class="wm-container wm-brown" style="height: 430px;">
+            <div class="grid-item">
+                <br><img src="icon/hist-gardens-icon.svg" alt="Historical"> Historical Gardens
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- TEAM code -->
+  <div class="wm-black" id="team">
+    <div class="wm-row-padding wm-padding-32" style="margin:0 -16px">
+      <h2 class="wm-wide wm-center">TEAM</h2>
+      <img src="image/team.jpg" alt="The Team" style="width:100%;" class="fixed-height">
+    </div>
+
+    <!-- The Contact Section -->
+    <div class="wm-container wm-content wm-padding-64" style="max-width:800px" id="contact">
+      <h2 class="wm-wide wm-center">CONTACT</h2>
+      <p class="wm-opacity wm-center"><i>Any suggestion?</i></p>
+      <div class="wm-row wm-padding-32">
+        <div class="wm-col m6 wm-large wm-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> Vienna, AT<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: +49 202403010630<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: viennese.summer@gmail.com<br>
+        </div>
+        <div class="wm-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="wm-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="wm-half">
+                <input class="wm-input wm-border" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="wm-half">
+                <input class="wm-input wm-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="wm-input wm-border" type="text" placeholder="Message" required name="Message">
+            <button class="wm-button wm-black wm-section wm-right" type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Content -->
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="wm-container wm-padding-64 wm-center wm-opacity wm-light-grey wm-xlarge">
+
+  </footer>
+
+  <script>
+    //JAVASCRIPT//
+    //PHOTOS INTRO//
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 4000);
+      //4 seg=4000//  
+    }
+
+    // toggle the menu on small screens//
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("wm-show") == -1) {
+        x.className += " wm-show";
+      } else {
+        x.className = x.className.replace(" wm-show", "");
+      }
+    }
+
+    // close the modal//
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+
+</html>

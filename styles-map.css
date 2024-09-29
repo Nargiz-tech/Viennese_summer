@@ -1,0 +1,120 @@
+/* styles.css */
+
+@font-face {
+	font-family: TradeGothicBold;
+	src: url("Trade Gothic LT Bold.ttf");
+}
+
+@font-face {
+	font-family: RobotoRegular;
+	src: url("Roboto-Regular.ttf");
+}
+
+p {
+    font-family: 'RobotoRegular', Arial, sans-serif;
+}
+
+strong {
+    font-family: 'TradeGothicBold', Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#map {
+    position: relative;
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.search{position: absolute;
+    top: 90px; 
+    left: 10px; }
+
+
+.leaflet-touch .leaflet-control-geocoder-icon {
+    width: 35px;
+    height: 30px;
+}
+
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-image: url(icon/layers-icon.svg);
+    background-size: 35px 35px;
+}
+
+.leaflet-control-geocoder-icon {
+    background-color: #f29b37ff;
+    background-image: url(icon/search-icon.svg);
+}
+
+.leaflet-touch .leaflet-control-layers-toggle {
+    width: 35px;
+    height: 35px;
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar{
+    /* width: 34px; */
+    border: 2px solid #f29b37ff;
+    /* border-radius: 10%; */
+}
+
+.leaflet-bar a {
+    color: #f29b37ff;
+}
+
+.leaflet-touch .leaflet-control-zoom-out {
+    font-size: 25px;
+}
+
+.leaflet-touch .leaflet-bar a {
+    width: 34px;
+    border-radius: 10%;
+
+}
+
+.leaflet-touch .leaflet-bar a:last-child {
+    border-bottom-left-radius: 6px; 
+    border-bottom-right-radius: 6px;
+}
+
+.leaflet-touch .leaflet-bar a:first-child {
+    border-bottom-left-radius: 6px; 
+    border-bottom-right-radius: 6px;
+}
+
+.home-button {
+    background: white;
+    border: 2px solid #f29b37ff;
+    border-radius: 10%;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+.home-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.marker-cluster-small {
+    background-color: #c9c7c764;
+}
+.marker-cluster-medium {
+    background-color: #c9c7c764;
+
+}
+.marker-cluster-large {
+    background-color: #c9c7c764;
+}
+
+.cluster-hover-polygon {
+    stroke: #808080;
+    stroke-width: 2;
+    stroke-opacity: 0.8;
+    fill: none;
+}
